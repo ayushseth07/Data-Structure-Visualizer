@@ -1,0 +1,104 @@
+.LLinfo{
+       font-size: 1.5rem;
+        line-height: 2rem;
+        text-align: left;
+}
+.des{
+    width: 40%;
+}
+.LinkedList{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.operations{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-left: 5rem;
+}
+.llDisplay{
+    display: flex;
+    padding: 0 2vw ;
+}
+.val{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.val p{
+    font-size: 2rem;
+    border: 2px solid black;
+    width: 100px;
+}
+.listnode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.null{
+    font-size: 2rem;
+   
+    padding-bottom: 10px;
+}
+.create{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 5px solid #47B5FF;
+   
+    border-right: none;
+}
+.inputSub {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inputSub1 {
+    width: 700px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.add{
+    display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 5px solid #47B5FF;
+            border-top: none;
+            border-left: none;
+}
+.delete{
+    display: flex;
+        width: 100%;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 5px solid #47B5FF;
+            border-top: none;
+            border-right: none;
+}
+.createInput{
+    height: 30px;
+}
+.addInput{
+    height: 30px;
+}
+.deleteInput{
+    height: 30px;
+}
+.subhead{
+    font-family: 'Courier New', Courier, monospace;
+}

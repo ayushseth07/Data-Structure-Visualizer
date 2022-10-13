@@ -1,0 +1,24 @@
+.block{
+    height: 10vh;
+    width:20vw;
+    /* border: 5px solid #FFE69A; */
+    /* border-top: none; */
+    background-color: #5463FF;
+    border-radius: 25px;
+    margin: 10px;
+
+}
+.empty{
+    height: 10vh;
+        width: 20vw;
+        /* border: 5px solid #FFE69A; */
+        /* border-top: none; */
+        background-color: #ffffff;
+        border-radius: 25px;
+        margin: 10px;
+}
+.num{
+    margin: 0;
+    font-size: 50px;
+    color: #ffffff;
+}

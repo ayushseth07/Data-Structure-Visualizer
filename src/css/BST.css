@@ -1,0 +1,96 @@
+
+.BSTmain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.BSTdes {
+    font-size: 1.7rem;
+        line-height: 2rem;
+        text-align: left;
+}
+.BSTinfo{
+    width: 40%;
+}
+.node{
+    background-color: black;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+}
+.level{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.userInput{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    height:40vh;
+
+}
+.bstInput{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    
+}
+.bstInput input{
+    width: 80%;
+    height: 30px;;
+}
+.preO{
+    display: flex;
+    flex-direction: column;
+}
+.sblock{
+    background-color: #F05D23;
+    color: white;
+    height:50px;
+    width:50px;
+    border:2px solid white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.after{
+    display: flex;
+}
+.pval{
+    color:white !important;
+    margin: 0;
+}
+.arrow{
+    height:300px;
+    width: 40%;
+    transform: rotate(90deg);
+}
+.small {
+    font-size: 1rem;
+}
+.createBST{
+   display: block;
+    position: relative;
+    margin: 0.5em 0;
+    padding: .8em 2.2em;
+    cursor: pointer;
+
+    background: #FFFFFF;
+    /* border: none; */
+    border: 1px solid #93DEFF;
+    border-radius: .4em;
+    font-size: 1.4em;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    transition: 0.5s ease-in-out;
+}
+.createBST:hover{
+    background:#0F4471 ;
+    color: #FFFFFF;
+}
