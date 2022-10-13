@@ -13,7 +13,7 @@ function App() {
       <Header />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="./" element={<Home />} />
           <Route path="./stack" element={<Stack />} />
           <Route path="./queue" element={<Queue />} />
           <Route path="./bst" element={<BST />} />
