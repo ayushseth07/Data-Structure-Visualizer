@@ -14,6 +14,7 @@ function App() {
       <Header />
       <BrowserRouter>
         <Routes>
+<<<<<<< HEAD
           <Route path="/" element={<Home />} />
           <Route path="/stack" element={<Stack />} />
           <Route path="/queue" element={<Queue />} />
@@ -21,6 +22,14 @@ function App() {
           <Route path="/linkedlist" element={<LinkedList />} />
           <Route path="/bubble" element={<Bubble />} />
           <Route path="/bfs" element={<BFS />} />
+=======
+          <Route path="./" element={<Home />} />
+          <Route path="./stack" element={<Stack />} />
+          <Route path="./queue" element={<Queue />} />
+          <Route path="./bst" element={<BST />} />
+          <Route path="./linkedlist" element={<LinkedList />} />
+          <Route path="./bubble" element={<Bubble />} />
+>>>>>>> c99f9b904d4c189662e621d572f1cd375e0cc670
         </Routes>
       </BrowserRouter>
     </div>
