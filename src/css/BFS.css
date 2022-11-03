@@ -1,0 +1,19 @@
+.BFSmain{
+    display: flex;
+
+}
+.Gridrow{
+    display: flex;
+    width: 500px;
+}
+.gridBlock{
+    height: 50px;
+    width: 50px;
+    border:2px solid black;
+}
+.bfsGrid{
+    width: 70vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

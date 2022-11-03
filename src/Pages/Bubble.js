@@ -24,7 +24,7 @@ const Bubble = () => {
       }
       setArr(temp);
       setArr([...arr]);
-    }, i * 500);
+    }, 500);
   };
   const innerLoop = (i, j, temp, n, col) => {
     setTimeout(function () {

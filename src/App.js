@@ -5,6 +5,7 @@ import Stack from "./Pages/stack";
 import BST from "./Pages/BST";
 import LinkedList from "./Pages/LinkedList";
 import Bubble from "./Pages/Bubble";
+import BFS from "./Pages/BFS";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Queue from "./Pages/Queue";
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/bst" element={<BST />} />
           <Route path="/linkedlist" element={<LinkedList />} />
           <Route path="/bubble" element={<Bubble />} />
+          <Route path="/bfs" element={<BFS />} />
         </Routes>
       </BrowserRouter>
     </div>
