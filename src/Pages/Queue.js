@@ -57,10 +57,10 @@ const Queue = () => {
     }
   };
   const peek = () => {
-    if (idx >= 0) {
+    if (idx >= 0 && front <= idx) {
       Swal.fire({
         icon: "info",
-        title: `The element in the front is ${queue[0]}`,
+        title: `The element in the front is ${queue[front]}`,
       });
     } else {
       Swal.fire({

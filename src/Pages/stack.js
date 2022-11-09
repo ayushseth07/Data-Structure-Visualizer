@@ -11,7 +11,6 @@ const Stack = () => {
       alert("Stack is full");
     } else {
       let arr = [...array];
-      console.log(idx);
       arr[idx - 1] = value;
       setIdx(idx - 1);
       setArray(arr);
@@ -40,13 +39,11 @@ const Stack = () => {
         title: `${array[idx]}`,
         text: `The element on top is ${array[idx]}`,
       });
-      //alert(`The element on top is ${array[idx]}`);
     } else {
       Swal.fire({
         icon: "error",
         title: "Stack is Empty !",
       });
-      //alert("Stack is empty");
     }
   };
   return (

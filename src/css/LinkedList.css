@@ -50,8 +50,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 5px solid #47B5FF;
-   
     border-right: none;
 }
 .inputSub {
@@ -75,9 +73,6 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        border: 5px solid #47B5FF;
-            border-top: none;
-            border-left: none;
 }
 .delete{
     display: flex;
@@ -86,9 +81,6 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        border: 5px solid #47B5FF;
-            border-top: none;
-            border-right: none;
 }
 .createInput{
     height: 30px;
