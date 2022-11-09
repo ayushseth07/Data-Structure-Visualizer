@@ -7,6 +7,9 @@ const Stack = () => {
   const [idx, setIdx] = useState(6);
   const [value, setValue] = useState("");
   const handlePush = () => {
+    if (value === "") {
+      return;
+    }
     if (idx - 1 < 0) {
       alert("Stack is full");
     } else {

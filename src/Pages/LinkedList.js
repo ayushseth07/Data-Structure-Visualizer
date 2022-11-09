@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../css/LinkedList.css";
 import ListNode from "../Components/LLNode";
 class LLNode {
@@ -9,12 +9,12 @@ class LLNode {
 }
 const AddAtSpecific = (head, val, pos) => {
   let temp = head;
-  while (pos > 1) {
+  let node = new LLNode(val);
+  while (pos > 0) {
     temp = temp.next;
     pos--;
   }
-  let Next = temp.next;
-  let node = new LLNode(val);
+  let Next = temp.next;  
   node.next = Next;
   temp.next = node;
   return head;
@@ -26,11 +26,10 @@ const AddAtEnd = (head, val) => {
   }
   let node = new LLNode(val);
   temp.next = node;
-  //console.log(temp);
   return head;
 };
 const DeleteFromSpecific = (head, pos) => {
-  let temp = head;
+ let temp = head;
   let prev = null;
   while (pos > 0) {
     prev = temp;
@@ -59,6 +58,10 @@ const LinkedList = () => {
   const [arr, setArr] = useState([]);
   const [obj, setObj] = useState({ val: "", pos: "" });
   //methods
+  useEffect(() => {
+    let values = ListToArray(head);
+    setArr(values);
+  }, [head]);
   const createList = (val) => {
     var temp = new LLNode(val);
     return temp;
@@ -91,10 +94,13 @@ const LinkedList = () => {
     setArr(values);
   };
   const HandleDelete = () => {
-    let n = obj.pos;
+ let n = obj.pos;
     let temp = head;
-    if (n === 0) {
+    console.log(n);
+    if (n === "0") {
+      console.log("here");
       temp = DeleteHead(temp);
+    
     } else {
       temp = DeleteFromSpecific(temp, n);
     }
