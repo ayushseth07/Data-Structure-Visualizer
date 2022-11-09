@@ -25,6 +25,11 @@ const Home = () => {
             Binary Search Tree
           </a>
         </li>
+        <li className="option">
+          <a className="link" href="/bubble">
+            Bubble Sort
+          </a>
+        </li>
       </ul>
     </div>
   );

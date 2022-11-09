@@ -28,4 +28,4 @@ const Invisible = ({ pointer }) => {
 };
 
 export default Invisible;
-//pointer === "1" ? <ImArrowDown /> : <></>
+
